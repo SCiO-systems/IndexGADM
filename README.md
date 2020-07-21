@@ -53,7 +53,7 @@ Installation and documentation
 
 This Elasticsearch installation comes with pre defined Indices. Theese indices contain the spatial polygon for all countries divided by their sub-divisions.
 
-Having the above spatial data inside elasticsearch give us the ability to execute [geo queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-queries.html).
+Having the above spatial data inside elasticsearch enable us to execute [geo queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-queries.html).
 
 We have also created an [API](https://gardian.bigdata.cgiar.org/api/#/Geospatial_query/Geospatial) that returns the polygon that falls inside a coordinate point.
 
