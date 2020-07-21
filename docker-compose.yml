@@ -1,0 +1,11 @@
+version: '2.2'
+services:
+  doof:
+    image: elastic
+    container_name: elastic
+    ports:
+      - 9200:9200
+    environment:
+      - xxxx.xxx.xxx.xxx
+
+
