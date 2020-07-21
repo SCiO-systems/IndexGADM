@@ -3,7 +3,8 @@ This project provides a dockerized version of an Elasticsearch instance that con
 
 The index is also available for simple queries through [GARDIAN's API](https://gardian.bigdata.cgiar.org/api/#/Geospatial_query/Geospatial)
 
-The IndexGADM has been created in the context of CGIAR's Big Data Platform and is part of the GARDIAN ecosystem
+The IndexGADM has been created in the context of  [CGIAR's Big Data Platform](https://bigdata.cgiar.org/) and is part of the 
+ [GARDIAN](https://gardian.bigdata.cgiar.org/) ecosystem. 
 
 
 # Elasticsearch GADM Indices Installation
