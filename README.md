@@ -76,7 +76,7 @@ The source code of Elasticsearh GADM indices is in [Github](https://github.com/S
     version: '2.2'
         services:
          gadm:
-          image: scioquiver/elasticsearch:gadm_countries
+          image: scioquiver/elasticsearch:gadm_polygons
           container_name: elastic
           ports:
              - 9200:9200
