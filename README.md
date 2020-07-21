@@ -1,4 +1,5 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
+[![GADM:v3.6](https://img.shields.io/badge/GADM-v3.6-green)](https://gadm.org/data.html)
 [![CGIAR:BigDataPlatform](https://img.shields.io/badge/CGIAR-BigDataPlatform-orange)](https://bigdata.cgiar.org/)
 [![CGIAR:GARDIAN](https://img.shields.io/badge/CGIAR-GARDIAN-orange)](https://gardian.bigdata.cgiar.org/)
 [![maintainer:SCiO](https://img.shields.io/badge/maintainer-SCiO-blue)](https://scio.systems)
