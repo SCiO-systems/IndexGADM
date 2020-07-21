@@ -1,61 +1,10 @@
 # IndexGADM
+This project provides a dockerized version of an Elasticsearch instance that contains a pre-defined index that includes documents with spatial polygons of administrative areas for countries accross the world. [GADM](https://gadm.org/index.html), a project that provides maps and spatial data for all countries and their sub-divisions, is the source & provider of the geospatial information. The use of Elasticsearch enables more easier access to the provided geospatial information and also allows the building of complex geoqueries.
 
-# Pre-requisities
-- Physical or Virtual machine of Linux distribution.
-- Install [Docker](https://github.com/docker).
-- Install [docker-compose](https://docs.docker.com/get-started/).
-- Available disk space 30GB.
+The index is also available for simple queries through [GARDIAN's API](https://gardian.bigdata.cgiar.org/api/#/Geospatial_query/Geospatial)
 
+The IndexGADM has been created in the context of CGIAR's Big Data Platform and is part of the GARDIAN ecosystem
 
-
-# Docker Compose
-
-![N|Solid](https://github.com/docker/compose/raw/master/logo.png?raw=true)
-
-Compose is a tool for defining and running multi-container Docker applications.
-With Compose, you use a Compose file to configure your application's services.
-Then, using a single command, you create and start all the services
-from your configuration. To learn more about all the features of Compose
-see [the list of features](https://github.com/docker/docker.github.io/blob/master/compose/overview.md#features).
-
-Compose is great for development, testing, and staging environments, as well as
-CI workflows. You can learn more about each case in
-[Common Use Cases](https://github.com/docker/docker.github.io/blob/master/compose/overview.md#common-use-cases).
-
-Using Compose is basically a three-step process.
-
-1. Define your app's environment with a `Dockerfile` so it can be
-reproduced anywhere.
-2. Define the services that make up your app in `docker-compose.yml` so
-they can be run together in an isolated environment.
-3. Lastly, run `docker-compose up` and Compose will start and run your entire app.
-
-For more information about the Compose file, see the
-[Compose file reference](https://github.com/docker/docker.github.io/blob/master/compose/compose-file/compose-versioning.md).
-
-Compose has commands for managing the whole lifecycle of your application:
-
- * Start, stop and rebuild services
- * View the status of running services
- * Stream the log output of running services
- * Run a one-off command on a service
-
-Installation and documentation
-------------------------------
-
-- Full documentation is available on [Docker's website](https://docs.docker.com/compose/).
-- Code repository for Compose is on [GitHub](https://github.com/docker/compose).
-
-# GADM
- [GADM](https://gadm.org/index.html) provides maps and spatial data for all countries and their sub-divisions
-
-# Elasticsearch GADM Indices Info
-
-This Elasticsearch installation comes with pre defined Indices. Theese indices contain the spatial polygon for all countries divided by their sub-divisions.
-
-Having the above spatial data inside elasticsearch enable us to execute [geo queries](https://www.elastic.co/guide/en/elasticsearch/reference/current/geo-queries.html).
-
-We have also created an [API](https://gardian.bigdata.cgiar.org/api/#/Geospatial_query/Geospatial) that returns the polygon that falls inside a coordinate point.
 
 # Elasticsearch GADM Indices Installation
 
