@@ -1,6 +1,6 @@
 version: '2.2'
 services:
-  doof:
+  gadm:
     image: scioquiver/elasticsearch:gadm_countries
     container_name: elastic
     ports:
