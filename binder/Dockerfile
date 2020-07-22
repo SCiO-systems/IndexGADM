@@ -1,1 +1,1 @@
-FROM scioquiver/notebooks:cgspatial-notebook
+FROM scioquiver/elasticsearch:gadm_polygons
