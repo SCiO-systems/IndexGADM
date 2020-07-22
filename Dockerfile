@@ -1,4 +1,5 @@
-FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.4
+
+FROM docker.elastic.co/elasticsearch/elasticsearch:6.8.0
 
 
 COPY docker-entrypoint.sh /docker-entrypoint.sh
@@ -20,9 +21,9 @@ RUN yum install -y unzip
 RUN mkdir /usr/share/elasticsearch/backup/
 RUN mv /usr/share/elasticsearch/backup.zip /usr/share/elasticsearch/backup/
 RUN unzip /usr/share/elasticsearch/backup/backup.zip -d /usr/share/elasticsearch/backup/
+RUN mv /usr/share/elasticsearch/backup/elbcp/* /usr/share/elasticsearch/backup/
 RUN chown -R elasticsearch:elasticsearch /usr/share/elasticsearch/backup 
 RUN chown -R elasticsearch:elasticsearch /usr/share/elasticsearch/logs 
 USER elasticsearch
 ENTRYPOINT ["/docker-entrypoint.sh"]
 CMD ["/usr/share/elasticsearch/bin/elasticsearch"]
-
