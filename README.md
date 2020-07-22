@@ -5,7 +5,7 @@
 [![maintainer:SCiO](https://img.shields.io/badge/maintainer-SCiO-blue)](https://scio.systems)
 
 # IndexGADM
-This project provides a dockerized version of an Elasticsearch instance that contains a pre-defined index that includes documents with spatial polygons of administrative areas for countries accross the world. [GADM](https://gadm.org/index.html), a project that provides maps and spatial data for all countries and their sub-divisions, is the source & provider of the geospatial information. The use of Elasticsearch enables more easier access to the provided geospatial information and also allows the building of complex geoqueries.
+This project provides a dockerized version of an Elasticsearch instance that contains a pre-defined index that includes documents with spatial polygons of administrative areas for countries accross the world. [GADM](https://gadm.org/index.html), a project that provides maps and spatial data for all countries and their sub-divisions, is the source & provider of the geospatial information. The use of Elasticsearch enables easier access to the provided geospatial information and also allows the building of complex spatial queries.
 
 The index is also available for simple queries through [GARDIAN's API](https://gardian.bigdata.cgiar.org/api/#/Geospatial_query/Geospatial)
 
