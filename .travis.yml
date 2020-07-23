@@ -4,5 +4,3 @@ python:
 sudo: required
 services:
     - docker
-script:
-    - make build
