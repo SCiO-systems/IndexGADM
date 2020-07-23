@@ -12,9 +12,9 @@ The IndexGADM has been created in the context of  [CGIAR's Big Data Platform](ht
  [GARDIAN](https://gardian.bigdata.cgiar.org/) ecosystem. 
 
 
-# Elasticsearch GADM Indices Installation
+# Installation
 
-To install Elasticsearch GADM Indices follow the next steps:
+To install IndexGADM follow the next steps:
 1. Clone the SCiO [github](https://github.com/SCiO-systems/IndexGADM) repository.
 2. Navigate inside the cloned repository.
 3. Execute the following command for default settings (INDEX=gadm_polygons, SHARDS=1, REPLICAS=0)
@@ -27,7 +27,7 @@ To install Elasticsearch GADM Indices follow the next steps:
 ```sh
   INDEX=my_index_name SHARDS=1 REPLICAS=1 docker-compose -f {docker-compose.yml path} up
 ```
-The source code of Elasticsearh GADM indices is in [Github](https://github.com/SCiO-systems/IndexGADM).
+The source code can be found in [Github](https://github.com/SCiO-systems/IndexGADM).
 
 # [docker-compose.yml](https://github.com/SCiO-systems/IndexGADM/blob/master/docker-compose.yml)
 
