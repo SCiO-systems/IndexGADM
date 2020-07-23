@@ -4,8 +4,6 @@ python:
 sudo: required
 services:
     - docker
-install:
-    - make test-env
 script:
     - make build
     - make test
