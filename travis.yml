@@ -5,7 +5,4 @@ sudo: required
 services:
     - docker
 install:
-    - make test-env
-script:
-    - make build
-    - make test
+  - pip install -r requirements.txt
