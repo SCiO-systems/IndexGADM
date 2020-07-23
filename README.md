@@ -39,7 +39,7 @@ The source code can be found in [Github](https://github.com/SCiO-systems/IndexGA
           ports:
              - 9200:9200
           environment:
-             - ${host}
+             - 0.0.0.0
     
 
 
@@ -48,6 +48,6 @@ List of Docker Images
 ------------------------------
 | Component | Location |
 | ------ | ------ |
-| Elasticsearch | [scioquiver/elasticsearch:gadm_countries](https://hub.docker.com/r/scioquiver/elasticsearch) |
+| Elasticsearch | [scioquiver/elasticsearch:gadm_polygons](https://hub.docker.com/r/scioquiver/elasticsearch) |
 
 
